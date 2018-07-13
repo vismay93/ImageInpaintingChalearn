@@ -22,13 +22,16 @@ python genMask.py ./Data/test ./Data/test/M
 ```
 
 ### step3: Trainning 
-Train the Network for the image inpainting task using the below mentioned python file, it will save the model files in './model' folder
+Train the Network for the image inpainting task using the below mentioned python file, it will save the model files in './model' folder.
 
 ```
 python train_perceptual_skipconn.py 
 ```
 
-### step4: Testing 
+### step4: Download models
+The pretrained models are kept at [modelfile](https://drive.google.com/drive/folders/1WVhEblW0-Dxl2d41OYfy6LIZbkrcigY4?usp=sharing). Download all the files and keep in the './model' folder.
+
+### step5: Testing 
 Test the above trained/pretrained network on the test dataset, output will get saved in './Output' folder.
 
 ```
